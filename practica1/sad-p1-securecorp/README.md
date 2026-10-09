@@ -1,4 +1,4 @@
-# Práctica 1 de SAD · SecureCorp — Kit del laboratorio
+# Práctica 1 de SAD · SecureCorp — Kit del laboratorio.
 
 Todo lo que necesitas para la práctica. **No tienes que saber Docker**: el laboratorio se maneja
 con una sola orden, `./lab.sh`.
