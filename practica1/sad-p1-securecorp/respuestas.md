@@ -3,7 +3,7 @@
 **Nombre y apellidos:** Pepe Rodríguez
 **Usuario:** peperodriguezcam
 
- Responde con tus palabras, en 1-3 líneas. En la defensa te preguntaré lo mismo en voz alta.
+Responde con tus palabras, en 1-3 líneas. En la defensa te preguntaré lo mismo en voz alta.
 
 **Contraseñas que has usado** (solo porque es un laboratorio; en una empresa, jamás en un fichero):
 
