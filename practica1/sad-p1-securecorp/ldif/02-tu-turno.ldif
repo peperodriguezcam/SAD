@@ -1,3 +1,16 @@
+dn: uid=rociosantos,ou=people,dc=securecorp,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: rociosantos
+cn: Rocio Santos
+sn: Santos
+mail: rociosantos@securecorp.local
+uidNumber: 10007
+gidNumber: 10000
+homeDirectory: /home/rociosantos
+loginShell: /bin/bash
+
+
 dn: uid=peperodriguezcam,ou=people,dc=securecorp,dc=local
 objectClass: inetOrgPerson
 objectClass: posixAccount
@@ -27,8 +40,11 @@ objectClass: groupOfNames
 cn: rrhh
 member: uid=lromero,ou=people,dc=securecorp,dc=local
 member: uid=mtorres,ou=people,dc=securecorp,dc=local
+member: uid=rociosantos,ou=people,dc=securecorp,dc=local
+
 
 dn: cn=sistemas,ou=groups,dc=securecorp,dc=local
 objectClass: groupOfNames
 cn: sistemas
 member: uid=peperodriguezcam,ou=people,dc=securecorp,dc=local
+
