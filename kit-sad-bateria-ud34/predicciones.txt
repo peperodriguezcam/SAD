@@ -1,4 +1,4 @@
 22=filtered
 80=open
-443=filtered
-8080=open
+443=closed
+8080=filtered
