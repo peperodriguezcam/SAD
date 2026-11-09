@@ -1,4 +1,0 @@
-# Claves privadas de WireGuard que se generan al hacer la práctica o la demo: nunca al repositorio
-firewall/wireguard/*.conf
-remoto/wireguard/*.conf
-copias/
