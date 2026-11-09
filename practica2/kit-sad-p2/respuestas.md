@@ -7,7 +7,14 @@
 Desde la calle: `./lab.sh cliente` y dentro `nmap -Pn -p 22,80,443,5432,8080 198.51.100.254`. Pega la salida:
 
 ```text
-(pega aquí la salida de nmap)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+80/tcp   open     http
+443/tcp  open     https
+5432/tcp filtered postgresql
+8080/tcp filtered http-proxy
+MAC Address: C2:21:68:28:AB:14 (Unknown)
+
 ```
 
 ## Bloque A · El contador
