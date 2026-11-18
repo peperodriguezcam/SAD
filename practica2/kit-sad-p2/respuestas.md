@@ -51,7 +51,9 @@ En dos líneas: ¿qué se ve por la calle y qué NO se ve?
 Del **mismo ataque** (la inyección a la web): ¿qué ve el vigilante de la red (el IDS) y qué ve el portero de la web? ¿Por
 qué hacen falta los dos?
 
->
+>El IDS Analiza el tráfico de red en crudo (paquetes TCP/IP) buscando patrones de texto o firmas conocidas (como `UNION SELECT`). No comprende la lógica de la aplicación web y puede ser evadido si el atacante ofusca o codifica la carga útil (por ejemplo, con doble codificación URL o fragmentación de paquetes).
+>El WAF Inspecciona la petición HTTP completa en la capa de aplicación (Capa 7). Decodifica y normaliza los datos exactamente igual que el servidor web antes de analizarlos, identificando qué parámetro concreto lleva la inyección y bloqueándola antes de que llegue al backend o a la base de datos.
+>Porque cubren perímetros distintos (defensa en profundidad): el **WAF** entiende y frena ataques web complejos, pero es ciego ante todo lo que no sea tráfico HTTP/HTTPS; **Suricata** protege toda la infraestructura de red detectando escaneos de puertos, intentos de intrusión por SSH, anomalías DNS o movimientos laterales internos.
 
 ## Bloque D · La nota del servidor (D0 y D4)
 
