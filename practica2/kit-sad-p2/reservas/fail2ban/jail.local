@@ -7,4 +7,11 @@ banaction = nftables-multiport
 #        Fail2ban tiene que leer el registro de intentos de SSH, que en este servidor está en
 #        /var/log/auth.log  (en Debian busca por defecto en otro sitio que aquí no existe).
 [sshd]
-enabled = false
+enabled = true
+logpath = /var/log/auth.log
+maxretry = 3
+backend = auto
+findtime = 10m
+bantime = 1h
+
+
