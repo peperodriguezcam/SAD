@@ -63,4 +63,6 @@ Nota del análisis **antes** de bastionar (D0):
 
 Nota **después** (D4). ¿Por qué no llega a 100? ¿Significa que el servidor sigue inseguro? Comenta un aviso que siga saliendo.
 
->
+>Porque la herramienta revisa el servidor entero y todavía quedan sugerencias pendientes por tocar (tanto de este bloque como del resto del sistema: kernel, permisos, otros servicios...). Además, llegar al 100 en Lynis es casi imposible sin romper cosas en producción.
+>No. Tener un 63/100 solo indica que aún hay margen de mejora, pero el servidor ya tiene medidas aplicadas y la seguridad real depende del contexto, no de sacar un 100 teórico.
+>El `HTTP-6710` (*Add HTTPS to nginx virtual hosts...*), que avisa de que los *virtual hosts* de Nginx siguen yendo por HTTP sin cifrar en lugar de usar HTTPS
